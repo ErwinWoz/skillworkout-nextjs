@@ -1,0 +1,85 @@
+.container {
+  margin-left: 1rem;
+  min-height: 12vh;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  font-size: 1.5rem; 
+  color: white;
+}
+
+/* .logo {
+  border-radius: 5%;
+} */
+
+/* .tagList {
+  min-height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem; 
+  color: white;
+} */
+
+/* .hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+} */
+
+
+
+/* @media screen and (max-width: 400px) {
+
+  .hamburger {
+    margin-top: 3.5rem;
+    display: flex;
+    font-size: 3.5rem;
+  }
+
+  .logo {
+    display: none !important;
+  }
+} */
+
+/* @media screen and (max-width: 974px) {
+
+  .tagList {
+    position: fixed;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .logo {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .tagList {
+    display: none;
+  }
+} */
+
+

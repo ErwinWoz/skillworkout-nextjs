@@ -1,4 +1,4 @@
-.container {
+/* .container {
   padding: 0 2rem;
 }
 
@@ -19,9 +19,10 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-}
+  /* background-color: white; */
+/* } */ 
 
-.footer a {
+/* .footer a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,6 +107,213 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+} */
+
+#main {
+  width: 100%;
+  height: 768px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/deadlift.png');
+  position: relative;
+  z-index: 0;
+}
+
+#main2 {
+  width: 100%;
+  height: 768px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/ball01.png');
+  position: relative;
+  z-index: 0;
+}
+
+#main3 {
+  width: 100%;
+  height: 768px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/food01.png');
+  position: relative;
+  z-index: 0;
+}
+
+#main4 {
+  width: 100%;
+  height: 768px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/tshirt01.png');
+  position: relative;
+  z-index: 0;
+}
+
+#main::before {
+  position: absolute;
+  content: "";
+  background: -moz-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: radial-gradient(ellipse at center, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61b50808', endColorstr='#99000000', GradientType=1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#main2::before {
+  position: absolute;
+  content: "";
+  background: -moz-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: radial-gradient(ellipse at center, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61b50808', endColorstr='#99000000', GradientType=1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#main3::before {
+  position: absolute;
+  content: "";
+  background: -moz-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: radial-gradient(ellipse at center, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61b50808', endColorstr='#99000000', GradientType=1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#main4::before {
+  position: absolute;
+  content: "";
+  background: -moz-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: radial-gradient(ellipse at center, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61b50808', endColorstr='#99000000', GradientType=1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#main::after {
+  content: "";
+  opacity: 0.8;
+  background: rgb(26, 31, 41) url('../img/deadlift.png') no-repeat fixed top;
+  background-blend-mode: luminosity;
+  /* also change the blend mode to what suits you, from darken, to other 
+  many options as you deem fit*/
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  height: 500px;
+}
+
+#main2::after {
+  content: "";
+  opacity: 0.8;
+  background: rgb(26, 31, 41) url('../img/ball01.png') no-repeat fixed top;
+  background-blend-mode: luminosity;
+  /* also change the blend mode to what suits you, from darken, to other 
+  many options as you deem fit*/
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  height: 500px;
+}
+
+#main3::after {
+  content: "";
+  opacity: 0.8;
+  background: rgb(26, 31, 41) url('../img/food01.png') no-repeat fixed top;
+  background-blend-mode: luminosity;
+  /* also change the blend mode to what suits you, from darken, to other 
+  many options as you deem fit*/
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  height: 500px;
+}
+
+#main4::after {
+  content: "";
+  opacity: 0.8;
+  background: rgb(26, 31, 41) url('../img/tshirt01.png') no-repeat fixed top;
+  background-blend-mode: luminosity;
+  /* also change the blend mode to what suits you, from darken, to other 
+  many options as you deem fit*/
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  height: 500px;
+}
+
+.header-btns {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.header-btn {
+  width: 160px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #FF1414;
+  box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.header-btn:hover {
+  background-color: transparent;
+  transition: all ease 0.5s;
+  color: #ffffff;
+  border: 2px solid #FF1414;
+}
+
+.header-heading {
+  padding-top: 255px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  text-align: center;
+  font-size: 23px;
+  color: #e0e0e0;
 }
 
 @media (max-width: 600px) {

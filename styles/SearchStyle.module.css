@@ -1,0 +1,39 @@
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.icon {
+    color: white;
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+.input {
+    margin-left: 0.4rem;
+    padding-left: 0.4rem;
+    background-color: #3D0C02;
+    border-radius: 10px;
+    width: 20%;
+    height: 4vh;
+    color: white;
+}
+
+.cardContainer {
+    margin-top: 3rem;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    margin-left: 1rem;
+}
+
+.cardText {
+    margin-left: 2rem;
+}
+
+

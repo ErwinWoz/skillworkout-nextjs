@@ -1,0 +1,6 @@
+.logout {
+    background-color: transparent;
+    transition: all ease 0.5s;
+    color: #ffffff;
+    border: 2px solid #FF1414;
+}

@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+    /* overflow: hidden; */
+    align-items: baseline;
+    border-top: 1px solid white;
+    
+}
+.logo {
+    margin-top: 1rem;
+    margin-right: 4rem;
+    float: right;
+}
+.icons {
+    font-size: 4rem;
+    color: white;
+}
+
+.p {
+    color: white;
+    float: center;
+    margin: 0.2rem 0.5rem;
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 8rem;
+    }
+}
