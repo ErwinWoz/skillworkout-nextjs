@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 
@@ -19,7 +20,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="header-btns">
-                <a href="/coach" className="header-btn">GET COACH</a>
+                <Link href="/coach" className="header-btn">GET COACH</Link>
             </div>
         </div>
         <div id="main2">
@@ -31,7 +32,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="header-btns">
-                <a href="/workouts" className="header-btn">WORKOUT</a>
+                <Link href="/workouts" className="header-btn">WORKOUT</Link>
             </div>
         </div>
         <div id="main3">
@@ -43,7 +44,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="header-btns">
-                <a href="/bmi" className="header-btn">CHECK BMI</a>
+                <Link href="/bmi" className="header-btn">CHECK BMI</Link>
             </div>
         </div>
         <div id="main4">
@@ -55,7 +56,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="header-btns">
-                <a href="/shop" className="header-btn">SHOP NOW</a>
+                <Link href="/shop" className="header-btn">SHOP NOW</Link>
             </div>
         </div>
 

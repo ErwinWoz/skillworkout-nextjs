@@ -73,8 +73,8 @@ function Shop() {
       {/* <header>
         <button onClick={() => navigateTo(cart_view)} style={{display: 'flex', margin: '2rem auto', justifyContent: 'end'}}>Go to Cart ({cart.length})</button>
       </header> */}
-      {view === products_view && renderProducts()}
-      {view === cart_view && <Cart cart={cart} setCart={setCart} setView={setView} />}
+      {/* {view === products_view && renderProducts()}
+      {view === cart_view && <Cart cart={cart} setCart={setCart} setView={setView} />} */}
     </>
   );
 }
