@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../styles/bmiStyle.module.css';
+import styles from '../styles/BmiStyle.module.css';
 import Image from 'next/image';
 import bmiImage from '../img/bmi1.png';
 import Button from '@mui/material/Button';
