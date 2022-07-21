@@ -11,9 +11,9 @@ const User = () => {
 
   return (
     <div>
-        <h2>hardcoded</h2>
-        <h2>{user.name}</h2>
-        <h2>{user.nickname}</h2>
+        <h2>hardcoded email</h2>
+        <h2>hardcoded name</h2>
+        <h2>hardcoded nickname</h2>
         <Box sx={{ '& button': { m: 1 } }}>
             <Button className={styles.logout} variant="contained" size="large" onClick={() => route.push('/api/auth/logout')}>
             Logout
