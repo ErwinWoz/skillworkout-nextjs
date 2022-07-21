@@ -9,13 +9,12 @@ import { style } from '@mui/system';
 
 function ContactMe() {
 
-    const localMessage = (JSON.parse(localStorage.getItem('contact-message')));
+    // const localMessage = (JSON.parse(localStorage.getItem('contact-message')));
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-    const [pastMessage, setPastMessages] = useState(
-        localMessage || [] );
+    const [pastMessage, setPastMessages] = useState(['testing']);
 
     const handleSubmit = (e) => {
         e.preventDefault();
